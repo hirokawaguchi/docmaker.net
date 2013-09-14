@@ -1,7 +1,8 @@
 ﻿/*--------------------------------------------
  * 
- *   DocMeker Ver2
- *   
+ *   docmaker.net Ver.2
+ *
+ *   Producer: Hiroyuki Kawaguchi (Hiro KAWAGUCHI Labo.) 
  *   Author:Kenji Takanashi (HL Will Co.,Ltd.)
  *   Since:2013/10/1
  *   
