@@ -1,7 +1,8 @@
 ﻿/*--------------------------------------------
  * 
- *   DocMeker Ver2
- *   
+ *   docmaker.net Ver.2
+ *
+ *   Producer: Hiroyuki Kawaguchi (Hiro KAWAGUCHI Labo.) 
  *   Author:Kenji Takanashi (HL Will Co.,Ltd.)
  *   Since:2013/10/1
  *   
@@ -234,7 +235,7 @@ namespace net.docmaker {
                 InitDatagridView(dv);
                 dgvMain.DataSource = dv;
                 dgvMain.Columns.RemoveAt(2);
-                int[] widths = { 120, 430, 80, 85, 85, 90, 75 };
+                int[] widths = { 120, 405, 80, 85, 85, 100, 60 };
                 for (int i = 0; i < dgvMain.Columns.Count; i++) {
                     dgvMain.Columns[i].Width = widths[i];
                 }
@@ -300,7 +301,7 @@ namespace net.docmaker {
             dvc.ValueType = Type.GetType("System.Datetime");
             dvc.Name = "最終更新日";
             dgvMain.Columns.Insert(5, dvc);
-            int[] widths = {40, 365, 80, 55, 80, 90, 85, 85, 70 };
+            int[] widths = {60, 345, 80, 60, 80, 100, 85, 85, 60 };
             while (dgvMain.Columns.Count > 9) { dgvMain.Columns.RemoveAt(dgvMain.Columns.Count - 1); }
             for (int i = 0; i < dgvMain.Columns.Count; i++) {
                 dgvMain.Columns[i].Width = widths[i];

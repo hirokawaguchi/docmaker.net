@@ -591,14 +591,14 @@
             this.tabControl.Location = new System.Drawing.Point(0, 24);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(1008, 706);
+            this.tabControl.Size = new System.Drawing.Size(1008, 538);
             this.tabControl.TabIndex = 6;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1008, 730);
+            this.ClientSize = new System.Drawing.Size(1008, 562);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.tsHighLight);
             this.Controls.Add(this.menuStrip1);
@@ -607,7 +607,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
             this.Opacity = 0D;
-            this.Text = "docmaker.net Ver.2.0.0";
+            this.Text = "docmaker.net Ver.2";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.mainView.ResumeLayout(false);

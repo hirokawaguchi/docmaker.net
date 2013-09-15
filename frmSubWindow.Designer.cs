@@ -898,7 +898,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label10.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label10.Location = new System.Drawing.Point(9, 18);
             this.label10.Margin = new System.Windows.Forms.Padding(0);
             this.label10.Name = "label10";
@@ -921,7 +921,7 @@
             // tbxProjectDetail
             // 
             this.tbxProjectDetail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbxProjectDetail.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tbxProjectDetail.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tbxProjectDetail.Location = new System.Drawing.Point(14, 113);
             this.tbxProjectDetail.Multiline = true;
             this.tbxProjectDetail.Name = "tbxProjectDetail";
@@ -932,7 +932,7 @@
             // lblWizard20
             // 
             this.lblWizard20.AutoSize = true;
-            this.lblWizard20.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblWizard20.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.lblWizard20.Location = new System.Drawing.Point(9, 18);
             this.lblWizard20.Margin = new System.Windows.Forms.Padding(0);
             this.lblWizard20.Name = "lblWizard20";
@@ -962,14 +962,14 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label27.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label27.Location = new System.Drawing.Point(9, 18);
             this.label27.Margin = new System.Windows.Forms.Padding(0);
             this.label27.Name = "label27";
             this.label27.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label27.Size = new System.Drawing.Size(240, 90);
             this.label27.TabIndex = 0;
-            this.label27.Text = "プロジェクトの内容を下記ウインドウで\r\n設定してください。\r\n\r\n設定が完了したら、下の「次へ＞」ボタン\r\nをクリックしてプロジェクト内容を確定し\r\nます。\r\n";
+            this.label27.Text = "プロジェクトの内容を下記ウインドウで\r\n設定してください。\r\n\r\n設定が完了したら、下の「次へ＞」ボタンを\r\nクリックしてプロジェクト内容を確定します。\r\n";
             // 
             // pnlWizard03
             // 
@@ -987,7 +987,7 @@
             // cmbWizard0302
             // 
             this.cmbWizard0302.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbWizard0302.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.cmbWizard0302.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.cmbWizard0302.FormattingEnabled = true;
             this.cmbWizard0302.Location = new System.Drawing.Point(12, 219);
             this.cmbWizard0302.Name = "cmbWizard0302";
@@ -997,7 +997,7 @@
             // cmbWizard0301
             // 
             this.cmbWizard0301.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbWizard0301.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.cmbWizard0301.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.cmbWizard0301.FormattingEnabled = true;
             this.cmbWizard0301.Location = new System.Drawing.Point(13, 146);
             this.cmbWizard0301.Name = "cmbWizard0301";
@@ -1007,7 +1007,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label22.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label22.Location = new System.Drawing.Point(9, 195);
             this.label22.Margin = new System.Windows.Forms.Padding(0);
             this.label22.Name = "label22";
@@ -1019,7 +1019,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label23.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label23.Location = new System.Drawing.Point(9, 123);
             this.label23.Margin = new System.Windows.Forms.Padding(0);
             this.label23.Name = "label23";
@@ -1031,14 +1031,14 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label24.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label24.Location = new System.Drawing.Point(9, 18);
             this.label24.Margin = new System.Windows.Forms.Padding(0);
             this.label24.Name = "label24";
             this.label24.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label24.Size = new System.Drawing.Size(196, 75);
             this.label24.TabIndex = 0;
-            this.label24.Text = "これから追加するプロジェクトは\r\nどんな内容ですか？\r\nまた、このプロジェクトの担当者は\r\n誰ですか？\r\n下記から選択してください。\r\n";
+            this.label24.Text = "このプロジェクトはどんな内容ですか？\r\nまた、このプロジェクトの担当者は\r\n誰ですか？\r\n下記から選択してください。\r\n";
             // 
             // pnlWizard02
             // 
@@ -1055,7 +1055,7 @@
             // 
             // tbxWizard0202
             // 
-            this.tbxWizard0202.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tbxWizard0202.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tbxWizard0202.ImeMode = System.Windows.Forms.ImeMode.On;
             this.tbxWizard0202.Location = new System.Drawing.Point(12, 214);
             this.tbxWizard0202.Multiline = true;
@@ -1065,7 +1065,7 @@
             // 
             // tbxWizard0201
             // 
-            this.tbxWizard0201.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tbxWizard0201.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tbxWizard0201.ImeMode = System.Windows.Forms.ImeMode.On;
             this.tbxWizard0201.Location = new System.Drawing.Point(13, 145);
             this.tbxWizard0201.Name = "tbxWizard0201";
@@ -1075,7 +1075,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label21.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label21.Location = new System.Drawing.Point(9, 195);
             this.label21.Margin = new System.Windows.Forms.Padding(0);
             this.label21.Name = "label21";
@@ -1087,7 +1087,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label20.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label20.Location = new System.Drawing.Point(9, 123);
             this.label20.Margin = new System.Windows.Forms.Padding(0);
             this.label20.Name = "label20";
@@ -1099,14 +1099,14 @@
             // lblWizard02
             // 
             this.lblWizard02.AutoSize = true;
-            this.lblWizard02.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblWizard02.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.lblWizard02.Location = new System.Drawing.Point(9, 18);
             this.lblWizard02.Margin = new System.Windows.Forms.Padding(0);
             this.lblWizard02.Name = "lblWizard02";
             this.lblWizard02.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblWizard02.Size = new System.Drawing.Size(236, 45);
             this.lblWizard02.TabIndex = 0;
-            this.lblWizard02.Text = "新規に実行したいプロジェクトの\r\nための依頼者の概要を下記に入力して\r\nください。\r\n";
+            this.lblWizard02.Text = "新規に実行したいプロジェクトの\r\n依頼者の名称を入力してください。\r\n";
             // 
             // lblWizard01
             // 
