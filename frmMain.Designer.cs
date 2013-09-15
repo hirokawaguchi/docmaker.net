@@ -412,13 +412,13 @@
             // tsmiScreenResolution
             // 
             this.tsmiScreenResolution.Name = "tsmiScreenResolution";
-            this.tsmiScreenResolution.Size = new System.Drawing.Size(152, 22);
+            this.tsmiScreenResolution.Size = new System.Drawing.Size(148, 22);
             this.tsmiScreenResolution.Text = "解像度表示";
             // 
             // tsmiRepository
             // 
             this.tsmiRepository.Name = "tsmiRepository";
-            this.tsmiRepository.Size = new System.Drawing.Size(152, 22);
+            this.tsmiRepository.Size = new System.Drawing.Size(148, 22);
             this.tsmiRepository.Text = "リポジトリブラウザ";
             // 
             // toolStripSeparator4
@@ -587,6 +587,7 @@
             // tabControl
             // 
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tabControl.Location = new System.Drawing.Point(0, 24);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
@@ -606,7 +607,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
             this.Opacity = 0D;
-            this.Text = "docmaker.net";
+            this.Text = "docmaker.net Ver.2.0.0";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.mainView.ResumeLayout(false);

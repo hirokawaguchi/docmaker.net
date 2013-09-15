@@ -1,7 +1,8 @@
 ﻿/*--------------------------------------------
  * 
- *   DocMeker Ver2
- *   
+ *   docmaker.net Ver.2
+ *
+ *   Producer: Hiroyuki Kawaguchi (Hiro KAWAGUCHI Labo.) 
  *   Author:Kenji Takanashi (HL Will Co.,Ltd.)
  *   Since:2013/10/1
  *   
@@ -144,7 +145,7 @@ namespace net.docmaker {
                 case OpenWindowType.CREATE_PROJECT:
                     wizard_step = 0;
                     this.Text = "プロジェクト作成ウィザード";
-                    lblWizardTitle.Text = "申請プロジェクトについて";
+                    lblWizardTitle.Text = "プロジェクトについて";
                     pnlWizard.Visible = true;
                     if (env.Master.Folder.Substring(env.Master.Folder.Length - 1) != @"\") {
                         Master master = env.Master;
@@ -194,7 +195,7 @@ namespace net.docmaker {
                     wizard_step = 0;
                     this.Text = "プロジェクト一覧作成ウィザード";
                     lblWizardTitle.Text = "プロジェクト一覧について";
-                    lblWizard01.Text = "docmaker.netでは自分が管理する\n申請案件を一覧にしたファイルを\n「プロジェクト一覧」と呼びます。";
+                    lblWizard01.Text = "docmaker.netでは自分が管理する\n業務案件を一覧にしたファイルを\n「プロジェクト一覧」と呼びます。";
                     lblWizard01.Text += "\n\nこのウィザードでは、新規に空のプロジェクト\n一覧を作成します。";
                     pnlWizard.Visible = true;
                     break;
@@ -203,7 +204,7 @@ namespace net.docmaker {
                     wizard_step = 0;
                     this.Text = "業務パックフォルダ設定ウイザード";
                     lblWizardTitle.Text = "業務パックについて";
-                    lblWizard01.Text = "docmaker.net Project Managerでは申請に\n必要な様式、手順をしるしたファイルをまとめた";
+                    lblWizard01.Text = "docmaker.netでは業務に\n必要な様式、手順を記したファイルをまとめた";
                     lblWizard01.Text += "\nものを「業務パック」と呼びます。";
                     lblWizard01.Text += "\n\nこのウイザードでは、お使いのパソコンに業務\nパックを保存するフォルダを設定します。";
                     lblWizard01.Text += "\n\n併せて、インターネット経由で最新の業務\nパックに更新する設定も行うことができます。";
@@ -298,7 +299,7 @@ namespace net.docmaker {
                 case OpenWindowType.VERSION:
                     this.Text = "バージョン情報";
                     System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
-                    lblVersion.Text = "Version "
+                    lblVersion.Text = "Ver."
                         + assembly.GetName().Version.Major + "."
                         + assembly.GetName().Version.Minor + "."
                         + assembly.GetName().Version.Build;
@@ -909,7 +910,7 @@ namespace net.docmaker {
             log.Close();
 
             DialogResult result;
-            ofd0101.Filter = "docmakerPMプロジェクト (index.xml;index.xls)|*.xml;*.xls";
+            ofd0101.Filter = "docmaker.netプロジェクト (index.xml;index.xls)|*.xml;*.xls";
             ofd0101.FilterIndex = 1;
             ofd0101.FileName = "index.xml";
             ofd0101.Title = "プロジェクト一覧ファイルを開く";
@@ -1032,6 +1033,7 @@ namespace net.docmaker {
             result = ofd0101.ShowDialog();
             if (result == DialogResult.OK) {
                 lbl01.Text = ofd0101.FileName;
+                tbx02.Text = ofd0101.SafeFileName;  // ファイル名を初期タスク名として入力を省力化
             }
 
         }
@@ -1049,12 +1051,12 @@ namespace net.docmaker {
             if (clicked.Name == "btnNext") {
                 string mess = "";
                 if (wizard_step == 1 && tbxWizard0201.Text == "" && (c_window == OpenWindowType.CREATE_PROJECT || c_window == OpenWindowType.CREATE_PROJECT_LIST)) {
-                    mess = c_window == OpenWindowType.CREATE_PROJECT ? "申請社名" : "担当者名";
+                    mess = c_window == OpenWindowType.CREATE_PROJECT ? "依頼者名" : "担当者名";
                     mess += "を入力してください";
                 } else if (wizard_step == 1 && !Directory.Exists(tbxWizard02Master.Text) && c_window == OpenWindowType.GYOUMU_PACK) {
                     mess = "業務パックフォルダを選択してください";
                 } else if (wizard_step == 2 && cmbWizard0301.SelectedIndex < 0 && c_window==OpenWindowType.CREATE_PROJECT) {
-                    mess = "申請案件を選択してください";
+                    mess = "業務案件を選択してください";
                 } else if (wizard_step == 2 && cmbWizard0302.SelectedIndex < 0 && c_window==OpenWindowType.CREATE_PROJECT_LIST) {
                     mess = "担当者を選択してください";
                 } else if (wizard_step == 3) {
@@ -1096,17 +1098,17 @@ namespace net.docmaker {
             switch (wizard_step) {
                 case 0:
                     if (c_window == OpenWindowType.CREATE_PROJECT) {    //プロジェクト作成
-                        lblWizardTitle.Text = "申請プロジェクトについて";
-                        lblWizard01.Text = "docmaker.netではひとつの申請案件のことを\n「申請プロジェクト」と呼びます。";
-                        lblWizard01.Text += "\n\nこのウィザードの質問に順に答えることにより、\n申請プロジェクトを自動的に作成し追加する\nことができます。";
+                        lblWizardTitle.Text = "プロジェクトについて";
+                        lblWizard01.Text = "docmaker.netではひとつの業務案件のことを\n「プロジェクト」と呼びます。";
+                        lblWizard01.Text += "\n\nこのウィザードの質問に順に答えることにより、\nプロジェクトを自動的に作成し追加する\nことができます。";
                     } else if (c_window == OpenWindowType.CREATE_PROJECT_LIST) {    //プロジェクトリスト作成
                         lblWizardTitle.Text = "プロジェクト一覧について";
-                        lblWizard01.Text = "docmaker.netでは自分が管理する\n申請案件を一覧にしたファイルを\n「プロジェクト一覧」と呼びます。";
+                        lblWizard01.Text = "docmaker.netでは自分が管理する\n業務案件を一覧にしたファイルを\n「プロジェクト一覧」と呼びます。";
                         lblWizard01.Text += "\n\nこのウィザードでは、新規に空のプロジェクト\n一覧を作成します。";
                     } else if (c_window == OpenWindowType.GYOUMU_PACK) {    //業務パックフォルダ設定
                         this.Text = "業務パックフォルダ設定ウイザード";
                         lblWizardTitle.Text = "業務パックについて";
-                        lblWizard01.Text = "docmaker.net Project Managerでは申請に\n必要な様式、手順をしるしたファイルをまとめた";
+                        lblWizard01.Text = "docmaker.netでは業務に\n必要な様式、手順を記したファイルをまとめた";
                         lblWizardTitle.Text += "ものを「業務パック」と呼びます。";
                         lblWizard01.Text += "\n\nこのウイザードでは、お使いのパソコンに業務\nパックを保存するフォルダを設定します。";
                         lblWizard01.Text += "\n\n併せて、インターネット経由で最新の業務\nパックに更新する設定も行うことができます。";
@@ -1117,9 +1119,9 @@ namespace net.docmaker {
                     break;
                 case 1:
                     if (c_window == OpenWindowType.CREATE_PROJECT) {    //プロジェクト作成
-                        lblWizardTitle.Text = "申請者の概要の入力";
-                        lblWizard02.Text = "新規に追加したい申請プロジェクトの\nための申請者の概要を下記に入力して\nください。";
-                        label20.Text = "申請者";
+                        lblWizardTitle.Text = "依頼者の概要の入力";
+                        lblWizard02.Text = "新規に追加したいプロジェクトの\nための依頼者の概要を下記に入力して\nください。";
+                        label20.Text = "依頼者";
                         label21.Visible = true;
                         tbxWizard0202.Visible = true;
                     } else if (c_window==OpenWindowType.CREATE_PROJECT_LIST) {  //プロジェクトリスト作成
@@ -1142,7 +1144,7 @@ namespace net.docmaker {
                     break;
                 case 2:
                     if (c_window == OpenWindowType.CREATE_PROJECT) {    //プロジェクト作成
-                        lblWizardTitle.Text = "申請案件の選択";
+                        lblWizardTitle.Text = "業務案件の選択";
                         pnlWizard03.Visible = true;
                     } else if (c_window == OpenWindowType.GYOUMU_PACK) {    //業務パックフォルダ設定
                         lblWizardTitle.Text = "インターネット経由で更新する場合の設定";
@@ -1220,8 +1222,8 @@ namespace net.docmaker {
                         data_set = new DataSet();
                         data_set.ReadXml(master_file, XmlReadMode.ReadSchema);
                         lines = new string[data_set.Tables["オプション一覧"].Rows.Count + 3];
-                        lines[0] = "申請者名 ＝ " + tbxWizard0201.Text;
-                        lines[1] = "申請案件名 ＝ " + cmbWizard0301.Text;
+                        lines[0] = "依頼者名 ＝ " + tbxWizard0201.Text;
+                        lines[1] = "業務案件名 ＝ " + cmbWizard0301.Text;
                         lines[2] = "担当者名 ＝ " + cmbWizard0302.Text;
                         data_set = new DataSet();
                         data_set.ReadXml(master_file, XmlReadMode.ReadSchema);
@@ -1319,7 +1321,7 @@ namespace net.docmaker {
         //プロジェクト取り込みで「プロジェクト情報」ボタンをクリックした処理
         private void btnProjectInfo_Click(object sender, EventArgs e) {
             if (env.Project.TortoiseSVN || env.Project.DropBox) {
-                ofd0101.Filter = "docmakerPM プロジェクト情報(*.dpr;*.dprx)|*.dpr;*.dprx";
+                ofd0101.Filter = "docmaker.netプロジェクト情報(*.dpr;*.dprx)|*.dpr;*.dprx";
                 ofd0101.Title = "プロジェクト情報ファイルを開く";
                 ofd0101.Multiselect = false;
                 ofd0101.InitialDirectory = Directory.GetCurrentDirectory();

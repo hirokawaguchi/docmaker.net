@@ -200,7 +200,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.Location = new System.Drawing.Point(22, 21);
+            this.label1.Location = new System.Drawing.Point(28, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 21);
             this.label1.TabIndex = 0;
@@ -210,7 +210,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.Location = new System.Drawing.Point(25, 65);
+            this.label2.Location = new System.Drawing.Point(28, 65);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(154, 16);
             this.label2.TabIndex = 1;
@@ -220,7 +220,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.Location = new System.Drawing.Point(25, 108);
+            this.label3.Location = new System.Drawing.Point(28, 102);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(156, 16);
             this.label3.TabIndex = 2;
@@ -237,14 +237,14 @@
             // tbx0201
             // 
             this.tbx0201.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.tbx0201.Location = new System.Drawing.Point(201, 105);
+            this.tbx0201.Location = new System.Drawing.Point(201, 99);
             this.tbx0201.Name = "tbx0201";
             this.tbx0201.Size = new System.Drawing.Size(335, 23);
             this.tbx0201.TabIndex = 5;
             // 
             // btnNewProjectList
             // 
-            this.btnNewProjectList.Location = new System.Drawing.Point(205, 32);
+            this.btnNewProjectList.Location = new System.Drawing.Point(396, 30);
             this.btnNewProjectList.Name = "btnNewProjectList";
             this.btnNewProjectList.Size = new System.Drawing.Size(140, 28);
             this.btnNewProjectList.TabIndex = 3;
@@ -254,6 +254,7 @@
             // 
             // btnSelectPFile
             // 
+            this.btnSelectPFile.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.btnSelectPFile.Location = new System.Drawing.Point(542, 62);
             this.btnSelectPFile.Name = "btnSelectPFile";
             this.btnSelectPFile.Size = new System.Drawing.Size(75, 23);
@@ -264,7 +265,8 @@
             // 
             // btnSelectPFolder
             // 
-            this.btnSelectPFolder.Location = new System.Drawing.Point(542, 104);
+            this.btnSelectPFolder.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnSelectPFolder.Location = new System.Drawing.Point(542, 99);
             this.btnSelectPFolder.Name = "btnSelectPFolder";
             this.btnSelectPFolder.Size = new System.Drawing.Size(75, 23);
             this.btnSelectPFolder.TabIndex = 7;
@@ -276,7 +278,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkBox1.Location = new System.Drawing.Point(201, 144);
+            this.checkBox1.Location = new System.Drawing.Point(201, 136);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(365, 20);
             this.checkBox1.TabIndex = 8;
@@ -287,7 +289,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label4.Location = new System.Drawing.Point(201, 174);
+            this.label4.Location = new System.Drawing.Point(201, 162);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 16);
             this.label4.TabIndex = 8;
@@ -296,7 +298,7 @@
             // tbx0202
             // 
             this.tbx0202.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.tbx0202.Location = new System.Drawing.Point(244, 171);
+            this.tbx0202.Location = new System.Drawing.Point(244, 159);
             this.tbx0202.Name = "tbx0202";
             this.tbx0202.Size = new System.Drawing.Size(373, 23);
             this.tbx0202.TabIndex = 9;
@@ -305,7 +307,7 @@
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkBox3.Location = new System.Drawing.Point(201, 204);
+            this.checkBox3.Location = new System.Drawing.Point(201, 184);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(337, 20);
             this.checkBox3.TabIndex = 10;
@@ -314,7 +316,7 @@
             // 
             // btnSetGFolder
             // 
-            this.btnSetGFolder.Location = new System.Drawing.Point(205, 297);
+            this.btnSetGFolder.Location = new System.Drawing.Point(396, 262);
             this.btnSetGFolder.Name = "btnSetGFolder";
             this.btnSetGFolder.Size = new System.Drawing.Size(140, 28);
             this.btnSetGFolder.TabIndex = 13;
@@ -324,7 +326,8 @@
             // 
             // btnSelectGFolder
             // 
-            this.btnSelectGFolder.Location = new System.Drawing.Point(542, 326);
+            this.btnSelectGFolder.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnSelectGFolder.Location = new System.Drawing.Point(542, 294);
             this.btnSelectGFolder.Name = "btnSelectGFolder";
             this.btnSelectGFolder.Size = new System.Drawing.Size(75, 23);
             this.btnSelectGFolder.TabIndex = 13;
@@ -335,7 +338,7 @@
             // tbx0301
             // 
             this.tbx0301.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.tbx0301.Location = new System.Drawing.Point(201, 326);
+            this.tbx0301.Location = new System.Drawing.Point(201, 294);
             this.tbx0301.Name = "tbx0301";
             this.tbx0301.Size = new System.Drawing.Size(335, 23);
             this.tbx0301.TabIndex = 12;
@@ -344,7 +347,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label5.Location = new System.Drawing.Point(25, 330);
+            this.label5.Location = new System.Drawing.Point(28, 297);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(120, 16);
             this.label5.TabIndex = 11;
@@ -353,18 +356,18 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("MS UI Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkBox2.Location = new System.Drawing.Point(201, 356);
+            this.checkBox2.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.checkBox2.Location = new System.Drawing.Point(201, 324);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(414, 19);
+            this.checkBox2.Size = new System.Drawing.Size(371, 20);
             this.checkBox2.TabIndex = 14;
-            this.checkBox2.Text = "TortoiseSVNを使ってセンターから最新業務パックをダウンロードする";
+            this.checkBox2.Text = "TortoiseSVNを使って最新業務パックをダウンロードする";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // tbx0302
             // 
             this.tbx0302.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.tbx0302.Location = new System.Drawing.Point(244, 382);
+            this.tbx0302.Location = new System.Drawing.Point(244, 345);
             this.tbx0302.Name = "tbx0302";
             this.tbx0302.Size = new System.Drawing.Size(373, 23);
             this.tbx0302.TabIndex = 16;
@@ -373,7 +376,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label6.Location = new System.Drawing.Point(201, 385);
+            this.label6.Location = new System.Drawing.Point(201, 348);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(37, 16);
             this.label6.TabIndex = 15;
@@ -383,9 +386,9 @@
             // 
             this.btnSubmit.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnSubmit.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnSubmit.Location = new System.Drawing.Point(422, 422);
+            this.btnSubmit.Location = new System.Drawing.Point(432, 389);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(85, 30);
+            this.btnSubmit.Size = new System.Drawing.Size(88, 33);
             this.btnSubmit.TabIndex = 17;
             this.btnSubmit.Text = "設定";
             this.btnSubmit.UseVisualStyleBackColor = true;
@@ -395,9 +398,9 @@
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnCancel.Location = new System.Drawing.Point(532, 422);
+            this.btnCancel.Location = new System.Drawing.Point(541, 389);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(85, 30);
+            this.btnCancel.Size = new System.Drawing.Size(88, 33);
             this.btnCancel.TabIndex = 18;
             this.btnCancel.Text = "キャンセル";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -405,7 +408,8 @@
             // 
             // btnSelectEditor
             // 
-            this.btnSelectEditor.Location = new System.Drawing.Point(544, 238);
+            this.btnSelectEditor.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnSelectEditor.Location = new System.Drawing.Point(544, 219);
             this.btnSelectEditor.Name = "btnSelectEditor";
             this.btnSelectEditor.Size = new System.Drawing.Size(75, 23);
             this.btnSelectEditor.TabIndex = 21;
@@ -416,7 +420,7 @@
             // txtEditor
             // 
             this.txtEditor.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.txtEditor.Location = new System.Drawing.Point(201, 238);
+            this.txtEditor.Location = new System.Drawing.Point(201, 219);
             this.txtEditor.Name = "txtEditor";
             this.txtEditor.Size = new System.Drawing.Size(335, 23);
             this.txtEditor.TabIndex = 20;
@@ -425,7 +429,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label7.Location = new System.Drawing.Point(23, 241);
+            this.label7.Location = new System.Drawing.Point(28, 222);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(101, 16);
             this.label7.TabIndex = 19;
@@ -435,7 +439,7 @@
             // 
             this.cbxEditor.AutoSize = true;
             this.cbxEditor.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.cbxEditor.Location = new System.Drawing.Point(201, 267);
+            this.cbxEditor.Location = new System.Drawing.Point(201, 244);
             this.cbxEditor.Name = "cbxEditor";
             this.cbxEditor.Size = new System.Drawing.Size(187, 20);
             this.cbxEditor.TabIndex = 22;
@@ -471,53 +475,54 @@
             this.pnlTaskGet.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlTaskGet.Location = new System.Drawing.Point(0, 0);
             this.pnlTaskGet.Name = "pnlTaskGet";
-            this.pnlTaskGet.Size = new System.Drawing.Size(667, 455);
+            this.pnlTaskGet.Size = new System.Drawing.Size(655, 443);
             this.pnlTaskGet.TabIndex = 23;
             this.pnlTaskGet.Visible = false;
             // 
             // dtpTaskEndDate
             // 
             this.dtpTaskEndDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtpTaskEndDate.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.dtpTaskEndDate.Location = new System.Drawing.Point(371, 227);
+            this.dtpTaskEndDate.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.dtpTaskEndDate.Location = new System.Drawing.Point(352, 231);
             this.dtpTaskEndDate.Name = "dtpTaskEndDate";
             this.dtpTaskEndDate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.dtpTaskEndDate.Size = new System.Drawing.Size(19, 22);
+            this.dtpTaskEndDate.Size = new System.Drawing.Size(19, 23);
             this.dtpTaskEndDate.TabIndex = 26;
             this.dtpTaskEndDate.ValueChanged += new System.EventHandler(this.DateTimePicker_ValueChanged);
             // 
             // dtpTaskStartDate
             // 
             this.dtpTaskStartDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtpTaskStartDate.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.dtpTaskStartDate.Location = new System.Drawing.Point(173, 227);
+            this.dtpTaskStartDate.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.dtpTaskStartDate.Location = new System.Drawing.Point(167, 231);
             this.dtpTaskStartDate.Name = "dtpTaskStartDate";
             this.dtpTaskStartDate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.dtpTaskStartDate.Size = new System.Drawing.Size(19, 22);
+            this.dtpTaskStartDate.Size = new System.Drawing.Size(19, 23);
             this.dtpTaskStartDate.TabIndex = 25;
             this.dtpTaskStartDate.ValueChanged += new System.EventHandler(this.DateTimePicker_ValueChanged);
             // 
             // tbxTaskEndDate
             // 
-            this.tbxTaskEndDate.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.tbxTaskEndDate.Location = new System.Drawing.Point(215, 227);
+            this.tbxTaskEndDate.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tbxTaskEndDate.Location = new System.Drawing.Point(216, 231);
             this.tbxTaskEndDate.Name = "tbxTaskEndDate";
-            this.tbxTaskEndDate.Size = new System.Drawing.Size(155, 22);
+            this.tbxTaskEndDate.Size = new System.Drawing.Size(155, 23);
             this.tbxTaskEndDate.TabIndex = 24;
             // 
             // tbxTaskStartDate
             // 
-            this.tbxTaskStartDate.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.tbxTaskStartDate.Location = new System.Drawing.Point(17, 227);
+            this.tbxTaskStartDate.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tbxTaskStartDate.Location = new System.Drawing.Point(31, 231);
             this.tbxTaskStartDate.Name = "tbxTaskStartDate";
-            this.tbxTaskStartDate.Size = new System.Drawing.Size(155, 22);
+            this.tbxTaskStartDate.Size = new System.Drawing.Size(155, 23);
             this.tbxTaskStartDate.TabIndex = 23;
             // 
             // btnDeleteFile
             // 
-            this.btnDeleteFile.Location = new System.Drawing.Point(513, 325);
+            this.btnDeleteFile.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnDeleteFile.Location = new System.Drawing.Point(513, 321);
             this.btnDeleteFile.Name = "btnDeleteFile";
-            this.btnDeleteFile.Size = new System.Drawing.Size(85, 23);
+            this.btnDeleteFile.Size = new System.Drawing.Size(88, 23);
             this.btnDeleteFile.TabIndex = 22;
             this.btnDeleteFile.Text = "ファイル削除";
             this.btnDeleteFile.UseVisualStyleBackColor = true;
@@ -527,9 +532,10 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(16, 293);
+            this.label18.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label18.Location = new System.Drawing.Point(29, 281);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(117, 12);
+            this.label18.Size = new System.Drawing.Size(157, 16);
             this.label18.TabIndex = 21;
             this.label18.Text = "外部ファイル　ファイル名";
             // 
@@ -537,9 +543,9 @@
             // 
             this.btnCancel2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel2.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnCancel2.Location = new System.Drawing.Point(513, 392);
+            this.btnCancel2.Location = new System.Drawing.Point(541, 389);
             this.btnCancel2.Name = "btnCancel2";
-            this.btnCancel2.Size = new System.Drawing.Size(85, 30);
+            this.btnCancel2.Size = new System.Drawing.Size(88, 33);
             this.btnCancel2.TabIndex = 20;
             this.btnCancel2.Text = "キャンセル";
             this.btnCancel2.UseVisualStyleBackColor = true;
@@ -549,9 +555,9 @@
             // 
             this.btnChange.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnChange.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnChange.Location = new System.Drawing.Point(408, 392);
+            this.btnChange.Location = new System.Drawing.Point(432, 389);
             this.btnChange.Name = "btnChange";
-            this.btnChange.Size = new System.Drawing.Size(85, 30);
+            this.btnChange.Size = new System.Drawing.Size(88, 33);
             this.btnChange.TabIndex = 19;
             this.btnChange.Text = "追加";
             this.btnChange.UseVisualStyleBackColor = true;
@@ -560,116 +566,130 @@
             // cmb03
             // 
             this.cmb03.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb03.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.cmb03.FormattingEnabled = true;
-            this.cmb03.Location = new System.Drawing.Point(462, 227);
+            this.cmb03.Location = new System.Drawing.Point(399, 230);
             this.cmb03.Name = "cmb03";
-            this.cmb03.Size = new System.Drawing.Size(121, 20);
+            this.cmb03.Size = new System.Drawing.Size(144, 24);
             this.cmb03.TabIndex = 18;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(459, 209);
+            this.label17.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label17.Location = new System.Drawing.Point(396, 212);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(29, 12);
+            this.label17.Size = new System.Drawing.Size(40, 16);
             this.label17.TabIndex = 17;
             this.label17.Text = "状態";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label16.Location = new System.Drawing.Point(213, 212);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 12);
+            this.label16.Size = new System.Drawing.Size(56, 16);
             this.label16.TabIndex = 15;
             this.label16.Text = "完了日";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(15, 212);
+            this.label15.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label15.Location = new System.Drawing.Point(28, 212);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 12);
+            this.label15.Size = new System.Drawing.Size(56, 16);
             this.label15.TabIndex = 13;
             this.label15.Text = "着手日";
             // 
             // cmb02
             // 
             this.cmb02.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb02.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.cmb02.FormattingEnabled = true;
-            this.cmb02.Location = new System.Drawing.Point(270, 157);
+            this.cmb02.Location = new System.Drawing.Point(345, 158);
             this.cmb02.Name = "cmb02";
-            this.cmb02.Size = new System.Drawing.Size(247, 20);
+            this.cmb02.Size = new System.Drawing.Size(198, 24);
             this.cmb02.TabIndex = 12;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(223, 161);
+            this.label14.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label14.Location = new System.Drawing.Point(283, 162);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 12);
+            this.label14.Size = new System.Drawing.Size(56, 16);
             this.label14.TabIndex = 11;
             this.label14.Text = "担当者";
             // 
             // cmb01
             // 
             this.cmb01.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmb01.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.cmb01.FormattingEnabled = true;
-            this.cmb01.Location = new System.Drawing.Point(74, 157);
+            this.cmb01.Location = new System.Drawing.Point(107, 158);
             this.cmb01.Name = "cmb01";
-            this.cmb01.Size = new System.Drawing.Size(121, 20);
+            this.cmb01.Size = new System.Drawing.Size(148, 24);
             this.cmb01.TabIndex = 10;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(15, 161);
+            this.label13.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label13.Location = new System.Drawing.Point(29, 162);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(53, 12);
+            this.label13.Size = new System.Drawing.Size(72, 16);
             this.label13.TabIndex = 9;
             this.label13.Text = "処理内容";
             // 
             // tbx02
             // 
+            this.tbx02.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tbx02.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.tbx02.Location = new System.Drawing.Point(215, 97);
+            this.tbx02.Location = new System.Drawing.Point(258, 112);
             this.tbx02.MaxLength = 200;
             this.tbx02.Name = "tbx02";
-            this.tbx02.Size = new System.Drawing.Size(383, 19);
+            this.tbx02.Size = new System.Drawing.Size(371, 23);
             this.tbx02.TabIndex = 8;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(167, 100);
+            this.label12.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label12.Location = new System.Drawing.Point(194, 115);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(42, 12);
+            this.label12.Size = new System.Drawing.Size(58, 16);
             this.label12.TabIndex = 7;
             this.label12.Text = "タスク名";
             // 
             // tbx01
             // 
+            this.tbx01.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tbx01.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.tbx01.Location = new System.Drawing.Point(51, 97);
+            this.tbx01.Location = new System.Drawing.Point(77, 112);
             this.tbx01.MaxLength = 6;
             this.tbx01.Name = "tbx01";
-            this.tbx01.Size = new System.Drawing.Size(100, 19);
+            this.tbx01.Size = new System.Drawing.Size(100, 23);
             this.tbx01.TabIndex = 6;
+            this.tbx01.Text = "0";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(16, 100);
+            this.label11.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label11.Location = new System.Drawing.Point(29, 115);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(29, 12);
+            this.label11.Size = new System.Drawing.Size(40, 16);
             this.label11.TabIndex = 5;
             this.label11.Text = "項番";
             // 
             // btnAddFile
             // 
-            this.btnAddFile.Location = new System.Drawing.Point(513, 288);
+            this.btnAddFile.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnAddFile.Location = new System.Drawing.Point(513, 279);
             this.btnAddFile.Name = "btnAddFile";
-            this.btnAddFile.Size = new System.Drawing.Size(85, 23);
+            this.btnAddFile.Size = new System.Drawing.Size(88, 23);
             this.btnAddFile.TabIndex = 4;
             this.btnAddFile.Text = "ファイル添付";
             this.btnAddFile.UseVisualStyleBackColor = true;
@@ -678,27 +698,29 @@
             // lbl01
             // 
             this.lbl01.AutoSize = true;
-            this.lbl01.Location = new System.Drawing.Point(24, 312);
+            this.lbl01.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lbl01.Location = new System.Drawing.Point(34, 313);
             this.lbl01.Name = "lbl01";
-            this.lbl01.Size = new System.Drawing.Size(0, 12);
+            this.lbl01.Size = new System.Drawing.Size(0, 13);
             this.lbl01.TabIndex = 3;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(37, 53);
+            this.label9.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label9.Location = new System.Drawing.Point(28, 69);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(380, 12);
+            this.label9.Size = new System.Drawing.Size(515, 16);
             this.label9.TabIndex = 1;
-            this.label9.Text = "タスクの情報を下記の通り追加します。外部ファイルを関連付けることもできます。";
+            this.label9.Text = "タスクの情報を下記のとおり追加します。外部ファイルを関連付けることもできます。";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("MS UI Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label8.Location = new System.Drawing.Point(35, 21);
+            this.label8.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label8.Location = new System.Drawing.Point(28, 28);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(88, 19);
+            this.label8.Size = new System.Drawing.Size(98, 21);
             this.label8.TabIndex = 0;
             this.label8.Text = "タスク追加";
             // 
@@ -719,17 +741,18 @@
             this.pnlWizard.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlWizard.Location = new System.Drawing.Point(0, 0);
             this.pnlWizard.Name = "pnlWizard";
-            this.pnlWizard.Size = new System.Drawing.Size(667, 455);
+            this.pnlWizard.Size = new System.Drawing.Size(635, 423);
             this.pnlWizard.TabIndex = 24;
             this.pnlWizard.Visible = false;
             // 
             // btnCancel3
             // 
             this.btnCancel3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel3.Location = new System.Drawing.Point(521, 382);
+            this.btnCancel3.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnCancel3.Location = new System.Drawing.Point(541, 389);
             this.btnCancel3.Name = "btnCancel3";
             this.btnCancel3.Padding = new System.Windows.Forms.Padding(5);
-            this.btnCancel3.Size = new System.Drawing.Size(98, 33);
+            this.btnCancel3.Size = new System.Drawing.Size(88, 33);
             this.btnCancel3.TabIndex = 4;
             this.btnCancel3.Text = "終了";
             this.btnCancel3.UseVisualStyleBackColor = true;
@@ -737,10 +760,11 @@
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(166, 382);
+            this.btnNext.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnNext.Location = new System.Drawing.Point(176, 389);
             this.btnNext.Name = "btnNext";
             this.btnNext.Padding = new System.Windows.Forms.Padding(5);
-            this.btnNext.Size = new System.Drawing.Size(98, 33);
+            this.btnNext.Size = new System.Drawing.Size(88, 33);
             this.btnNext.TabIndex = 3;
             this.btnNext.Text = "次へ　>";
             this.btnNext.UseVisualStyleBackColor = true;
@@ -749,10 +773,11 @@
             // btnPrev
             // 
             this.btnPrev.Enabled = false;
-            this.btnPrev.Location = new System.Drawing.Point(26, 382);
+            this.btnPrev.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnPrev.Location = new System.Drawing.Point(25, 389);
             this.btnPrev.Name = "btnPrev";
             this.btnPrev.Padding = new System.Windows.Forms.Padding(5);
-            this.btnPrev.Size = new System.Drawing.Size(98, 33);
+            this.btnPrev.Size = new System.Drawing.Size(88, 33);
             this.btnPrev.TabIndex = 2;
             this.btnPrev.Text = "<　戻る";
             this.btnPrev.UseVisualStyleBackColor = true;
@@ -762,17 +787,17 @@
             // 
             this.lblWizardTitle.AutoSize = true;
             this.lblWizardTitle.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.lblWizardTitle.Location = new System.Drawing.Point(26, 11);
+            this.lblWizardTitle.Location = new System.Drawing.Point(28, 28);
             this.lblWizardTitle.Name = "lblWizardTitle";
             this.lblWizardTitle.Size = new System.Drawing.Size(208, 21);
             this.lblWizardTitle.TabIndex = 1;
-            this.lblWizardTitle.Text = "申請プロジェクトについて";
+            this.lblWizardTitle.Text = "業務プロジェクトについて";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::net.docmaker.Properties.Resources.wizard01;
             this.pictureBox1.InitialImage = global::net.docmaker.Properties.Resources.wizard01;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 45);
+            this.pictureBox1.Location = new System.Drawing.Point(25, 57);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(239, 319);
             this.pictureBox1.TabIndex = 0;
@@ -793,41 +818,44 @@
             // cbxWizard03Master
             // 
             this.cbxWizard03Master.AutoSize = true;
-            this.cbxWizard03Master.Location = new System.Drawing.Point(10, 188);
+            this.cbxWizard03Master.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.cbxWizard03Master.Location = new System.Drawing.Point(14, 171);
             this.cbxWizard03Master.Name = "cbxWizard03Master";
-            this.cbxWizard03Master.Size = new System.Drawing.Size(182, 28);
+            this.cbxWizard03Master.Size = new System.Drawing.Size(272, 36);
             this.cbxWizard03Master.TabIndex = 3;
-            this.cbxWizard03Master.Text = "TortoiseSVNを使ってセンターから\r\n最新業務パックをダウンロードする";
+            this.cbxWizard03Master.Text = "TortoiseSVNを使って最新業務パックを\r\nダウンロードする";
             this.cbxWizard03Master.UseVisualStyleBackColor = true;
             // 
             // tbxWizard03Master
             // 
+            this.tbxWizard03Master.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tbxWizard03Master.Location = new System.Drawing.Point(8, 240);
             this.tbxWizard03Master.Name = "tbxWizard03Master";
-            this.tbxWizard03Master.Size = new System.Drawing.Size(309, 19);
+            this.tbxWizard03Master.Size = new System.Drawing.Size(309, 20);
             this.tbxWizard03Master.TabIndex = 2;
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(8, 225);
+            this.label25.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label25.Location = new System.Drawing.Point(10, 221);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(27, 12);
+            this.label25.Size = new System.Drawing.Size(37, 16);
             this.label25.TabIndex = 1;
             this.label25.Text = "URL";
             // 
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label40.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label40.Location = new System.Drawing.Point(9, 18);
             this.label40.Margin = new System.Windows.Forms.Padding(0);
             this.label40.Name = "label40";
             this.label40.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label40.Size = new System.Drawing.Size(296, 144);
+            this.label40.Size = new System.Drawing.Size(296, 96);
             this.label40.TabIndex = 0;
-            this.label40.Text = "TotoiseSVNというソフトウェア(無償)を\r\nインストールすると、業務パックをイン\r\nターネット経由で更新することが\r\nできます。\r\n\r\nお使いのパソコンに" +
-    "TortoiseSVNがイン\r\nストールされており、業務パックをイン\r\nターネット経由で更新したい場合は次の\r\n設定が必要です。";
+            this.label40.Text = "TotoiseSVNをインストールすると、業務パックを\r\nインターネット経由で更新することができます。\r\n\r\nお使いのパソコンにTortoiseSVNがインストー" +
+    "ル\r\nされており、業務パックをインターネット経由で\r\n更新したい場合は次の設定が必要です。";
             // 
             // pnlWizard02Master
             // 
@@ -904,14 +932,14 @@
             // lblWizard20
             // 
             this.lblWizard20.AutoSize = true;
-            this.lblWizard20.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblWizard20.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.lblWizard20.Location = new System.Drawing.Point(9, 18);
             this.lblWizard20.Margin = new System.Windows.Forms.Padding(0);
             this.lblWizard20.Name = "lblWizard20";
             this.lblWizard20.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblWizard20.Size = new System.Drawing.Size(296, 80);
+            this.lblWizard20.Size = new System.Drawing.Size(200, 75);
             this.lblWizard20.TabIndex = 0;
-            this.lblWizard20.Text = "以上で、下記の通りプロジェクトの\r\n内容を設定しました。\r\n\r\n「次へ　＞」ボタンをクリックすると、\r\nプロジェクトの作成を開始します。";
+            this.lblWizard20.Text = "以上で下記のとおりプロジェクトの\r\n内容を設定しました。\r\n\r\n「次へ　＞」ボタンをクリックすると、\r\nプロジェクトの作成を開始します。";
             // 
             // pnlWizard10
             // 
@@ -934,12 +962,12 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label27.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label27.Location = new System.Drawing.Point(9, 18);
             this.label27.Margin = new System.Windows.Forms.Padding(0);
             this.label27.Name = "label27";
             this.label27.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label27.Size = new System.Drawing.Size(312, 96);
+            this.label27.Size = new System.Drawing.Size(240, 90);
             this.label27.TabIndex = 0;
             this.label27.Text = "プロジェクトの内容を下記ウインドウで\r\n設定してください。\r\n\r\n設定が完了したら、下の「次へ＞」ボタン\r\nをクリックしてプロジェクト内容を確定し\r\nます。\r\n";
             // 
@@ -979,38 +1007,38 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label22.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label22.Location = new System.Drawing.Point(9, 195);
             this.label22.Margin = new System.Windows.Forms.Padding(0);
             this.label22.Name = "label22";
             this.label22.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label22.Size = new System.Drawing.Size(72, 16);
+            this.label22.Size = new System.Drawing.Size(67, 15);
             this.label22.TabIndex = 2;
             this.label22.Text = "担当者名\r\n";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label23.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label23.Location = new System.Drawing.Point(9, 123);
             this.label23.Margin = new System.Windows.Forms.Padding(0);
             this.label23.Name = "label23";
             this.label23.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label23.Size = new System.Drawing.Size(88, 16);
+            this.label23.Size = new System.Drawing.Size(67, 15);
             this.label23.TabIndex = 1;
-            this.label23.Text = "申請者案件";
+            this.label23.Text = "案件種別";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label24.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label24.Location = new System.Drawing.Point(9, 18);
             this.label24.Margin = new System.Windows.Forms.Padding(0);
             this.label24.Name = "label24";
             this.label24.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label24.Size = new System.Drawing.Size(296, 80);
+            this.label24.Size = new System.Drawing.Size(196, 75);
             this.label24.TabIndex = 0;
-            this.label24.Text = "これから追加する申請プロジェクトは\r\nどんな申請案件ですか？\r\nまた、この申請プロジェクトの担当者は\r\n誰ですか？\r\n下記から選択してください。\r\n";
+            this.label24.Text = "これから追加するプロジェクトは\r\nどんな内容ですか？\r\nまた、このプロジェクトの担当者は\r\n誰ですか？\r\n下記から選択してください。\r\n";
             // 
             // pnlWizard02
             // 
@@ -1047,38 +1075,38 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label21.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label21.Location = new System.Drawing.Point(9, 195);
             this.label21.Margin = new System.Windows.Forms.Padding(0);
             this.label21.Name = "label21";
             this.label21.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label21.Size = new System.Drawing.Size(160, 16);
+            this.label21.Size = new System.Drawing.Size(140, 15);
             this.label21.TabIndex = 2;
-            this.label21.Text = "申請者所在地(任意）\r\n";
+            this.label21.Text = "依頼者所在地(任意）\r\n";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label20.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label20.Location = new System.Drawing.Point(9, 123);
             this.label20.Margin = new System.Windows.Forms.Padding(0);
             this.label20.Name = "label20";
             this.label20.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label20.Size = new System.Drawing.Size(56, 16);
+            this.label20.Size = new System.Drawing.Size(52, 15);
             this.label20.TabIndex = 1;
-            this.label20.Text = "申請者\r\n";
+            this.label20.Text = "依頼者\r\n";
             // 
             // lblWizard02
             // 
             this.lblWizard02.AutoSize = true;
-            this.lblWizard02.Font = new System.Drawing.Font("ＭＳ ゴシック", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblWizard02.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.lblWizard02.Location = new System.Drawing.Point(9, 18);
             this.lblWizard02.Margin = new System.Windows.Forms.Padding(0);
             this.lblWizard02.Name = "lblWizard02";
             this.lblWizard02.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblWizard02.Size = new System.Drawing.Size(280, 48);
+            this.lblWizard02.Size = new System.Drawing.Size(236, 45);
             this.lblWizard02.TabIndex = 0;
-            this.lblWizard02.Text = "新規に申請したい申請プロジェクトの\r\nための申請者の概要を下記に入力して\r\nください。\r\n";
+            this.lblWizard02.Text = "新規に実行したいプロジェクトの\r\nための依頼者の概要を下記に入力して\r\nください。\r\n";
             // 
             // lblWizard01
             // 
@@ -1088,8 +1116,8 @@
             this.lblWizard01.Name = "lblWizard01";
             this.lblWizard01.Size = new System.Drawing.Size(289, 96);
             this.lblWizard01.TabIndex = 5;
-            this.lblWizard01.Text = "docmaker.netではひとつの申請案件のことを\r\n「申請プロジェクト」と呼びます。\r\n\r\nこのウイザードの質問に順に答えることにより、\r\n申請プロジェクトを" +
-    "自動的に作成し追加する\r\nことができます。";
+            this.lblWizard01.Text = "docmaker.netではひとつの業務案件のことを\r\n「プロジェクト」と呼びます。\r\n\r\nこのウイザードの質問に順に答えることにより、\r\nプロジェクトを自動的に" +
+    "作成し追加する\r\nことができます。";
             // 
             // pnlProjectData
             // 
@@ -1115,49 +1143,50 @@
             this.pnlProjectData.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlProjectData.Location = new System.Drawing.Point(0, 0);
             this.pnlProjectData.Name = "pnlProjectData";
-            this.pnlProjectData.Size = new System.Drawing.Size(667, 455);
+            this.pnlProjectData.Size = new System.Drawing.Size(651, 439);
             this.pnlProjectData.TabIndex = 10;
             this.pnlProjectData.Visible = false;
             // 
             // dtpRenewalDate
             // 
             this.dtpRenewalDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtpRenewalDate.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.dtpRenewalDate.Location = new System.Drawing.Point(576, 200);
+            this.dtpRenewalDate.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.dtpRenewalDate.Location = new System.Drawing.Point(555, 203);
             this.dtpRenewalDate.Name = "dtpRenewalDate";
             this.dtpRenewalDate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.dtpRenewalDate.Size = new System.Drawing.Size(19, 22);
+            this.dtpRenewalDate.Size = new System.Drawing.Size(19, 23);
             this.dtpRenewalDate.TabIndex = 18;
             this.dtpRenewalDate.ValueChanged += new System.EventHandler(this.DateTimePicker_ValueChanged);
             // 
             // dtpEndDate
             // 
             this.dtpEndDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtpEndDate.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.dtpEndDate.Location = new System.Drawing.Point(378, 200);
+            this.dtpEndDate.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.dtpEndDate.Location = new System.Drawing.Point(358, 203);
             this.dtpEndDate.Name = "dtpEndDate";
             this.dtpEndDate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.dtpEndDate.Size = new System.Drawing.Size(19, 22);
+            this.dtpEndDate.Size = new System.Drawing.Size(19, 23);
             this.dtpEndDate.TabIndex = 17;
             this.dtpEndDate.ValueChanged += new System.EventHandler(this.DateTimePicker_ValueChanged);
             // 
             // dtpStartDate
             // 
             this.dtpStartDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtpStartDate.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.dtpStartDate.Location = new System.Drawing.Point(180, 200);
+            this.dtpStartDate.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.dtpStartDate.Location = new System.Drawing.Point(167, 203);
             this.dtpStartDate.Name = "dtpStartDate";
             this.dtpStartDate.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.dtpStartDate.Size = new System.Drawing.Size(19, 22);
+            this.dtpStartDate.Size = new System.Drawing.Size(19, 23);
             this.dtpStartDate.TabIndex = 16;
             this.dtpStartDate.ValueChanged += new System.EventHandler(this.DateTimePicker_ValueChanged);
             // 
             // btnCancel4
             // 
             this.btnCancel4.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel4.Location = new System.Drawing.Point(477, 383);
+            this.btnCancel4.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnCancel4.Location = new System.Drawing.Point(541, 389);
             this.btnCancel4.Name = "btnCancel4";
-            this.btnCancel4.Size = new System.Drawing.Size(99, 32);
+            this.btnCancel4.Size = new System.Drawing.Size(88, 33);
             this.btnCancel4.TabIndex = 15;
             this.btnCancel4.Text = "キャンセル";
             this.btnCancel4.UseVisualStyleBackColor = true;
@@ -1166,9 +1195,10 @@
             // btnChange2
             // 
             this.btnChange2.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnChange2.Location = new System.Drawing.Point(349, 382);
+            this.btnChange2.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnChange2.Location = new System.Drawing.Point(432, 389);
             this.btnChange2.Name = "btnChange2";
-            this.btnChange2.Size = new System.Drawing.Size(99, 32);
+            this.btnChange2.Size = new System.Drawing.Size(88, 33);
             this.btnChange2.TabIndex = 14;
             this.btnChange2.Text = "変更";
             this.btnChange2.UseVisualStyleBackColor = true;
@@ -1176,127 +1206,134 @@
             // 
             // cmbStatus
             // 
-            this.cmbStatus.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.cmbStatus.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.cmbStatus.FormattingEnabled = true;
             this.cmbStatus.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.cmbStatus.Location = new System.Drawing.Point(26, 293);
+            this.cmbStatus.Location = new System.Drawing.Point(31, 281);
             this.cmbStatus.Name = "cmbStatus";
-            this.cmbStatus.Size = new System.Drawing.Size(185, 23);
+            this.cmbStatus.Size = new System.Drawing.Size(185, 24);
             this.cmbStatus.TabIndex = 13;
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(24, 277);
+            this.label34.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label34.Location = new System.Drawing.Point(29, 262);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(29, 12);
+            this.label34.Size = new System.Drawing.Size(40, 16);
             this.label34.TabIndex = 12;
             this.label34.Text = "状態";
             // 
             // tbxRenewalDate
             // 
-            this.tbxRenewalDate.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.tbxRenewalDate.Location = new System.Drawing.Point(419, 200);
+            this.tbxRenewalDate.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tbxRenewalDate.Location = new System.Drawing.Point(419, 203);
             this.tbxRenewalDate.Name = "tbxRenewalDate";
-            this.tbxRenewalDate.Size = new System.Drawing.Size(155, 22);
+            this.tbxRenewalDate.Size = new System.Drawing.Size(155, 23);
             this.tbxRenewalDate.TabIndex = 11;
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(419, 185);
+            this.label33.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label33.Location = new System.Drawing.Point(419, 184);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(65, 12);
+            this.label33.Size = new System.Drawing.Size(88, 16);
             this.label33.TabIndex = 10;
             this.label33.Text = "次回更新日";
             // 
             // tbxEndDate
             // 
-            this.tbxEndDate.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.tbxEndDate.Location = new System.Drawing.Point(222, 200);
+            this.tbxEndDate.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tbxEndDate.Location = new System.Drawing.Point(222, 203);
             this.tbxEndDate.Name = "tbxEndDate";
-            this.tbxEndDate.Size = new System.Drawing.Size(155, 22);
+            this.tbxEndDate.Size = new System.Drawing.Size(155, 23);
             this.tbxEndDate.TabIndex = 9;
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(222, 185);
+            this.label32.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label32.Location = new System.Drawing.Point(222, 184);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(29, 12);
+            this.label32.Size = new System.Drawing.Size(40, 16);
             this.label32.TabIndex = 8;
             this.label32.Text = "期限";
             // 
             // tbxStartDate
             // 
-            this.tbxStartDate.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.tbxStartDate.Location = new System.Drawing.Point(24, 200);
+            this.tbxStartDate.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tbxStartDate.Location = new System.Drawing.Point(31, 203);
             this.tbxStartDate.Name = "tbxStartDate";
-            this.tbxStartDate.Size = new System.Drawing.Size(155, 22);
+            this.tbxStartDate.Size = new System.Drawing.Size(155, 23);
             this.tbxStartDate.TabIndex = 7;
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(24, 185);
+            this.label31.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label31.Location = new System.Drawing.Point(29, 184);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(41, 12);
+            this.label31.Size = new System.Drawing.Size(56, 16);
             this.label31.TabIndex = 6;
             this.label31.Text = "作成日";
             // 
             // cmbPerson
             // 
-            this.cmbPerson.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.cmbPerson.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.cmbPerson.FormattingEnabled = true;
             this.cmbPerson.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.cmbPerson.Location = new System.Drawing.Point(349, 124);
+            this.cmbPerson.Location = new System.Drawing.Point(416, 127);
             this.cmbPerson.Name = "cmbPerson";
-            this.cmbPerson.Size = new System.Drawing.Size(185, 23);
+            this.cmbPerson.Size = new System.Drawing.Size(185, 24);
             this.cmbPerson.TabIndex = 5;
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(347, 108);
+            this.label30.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label30.Location = new System.Drawing.Point(414, 108);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(41, 12);
+            this.label30.Size = new System.Drawing.Size(56, 16);
             this.label30.TabIndex = 4;
             this.label30.Text = "担当者";
             // 
             // tbxProjectName
             // 
-            this.tbxProjectName.Font = new System.Drawing.Font("MS UI Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tbxProjectName.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tbxProjectName.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.tbxProjectName.Location = new System.Drawing.Point(26, 123);
+            this.tbxProjectName.Location = new System.Drawing.Point(31, 128);
             this.tbxProjectName.Name = "tbxProjectName";
-            this.tbxProjectName.Size = new System.Drawing.Size(268, 22);
+            this.tbxProjectName.Size = new System.Drawing.Size(346, 23);
             this.tbxProjectName.TabIndex = 3;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(26, 108);
+            this.label29.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label29.Location = new System.Drawing.Point(29, 108);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(68, 12);
+            this.label29.Size = new System.Drawing.Size(93, 16);
             this.label29.TabIndex = 2;
             this.label29.Text = "プロジェクト名";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(28, 49);
+            this.label28.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label28.Location = new System.Drawing.Point(28, 69);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(205, 12);
+            this.label28.Size = new System.Drawing.Size(293, 16);
             this.label28.TabIndex = 1;
-            this.label28.Text = "プロジェクトの情報を下記の通り変更します";
+            this.label28.Text = "プロジェクトの情報を下記のとおり変更します。";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label26.Location = new System.Drawing.Point(24, 21);
+            this.label26.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label26.Location = new System.Drawing.Point(28, 28);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(141, 16);
+            this.label26.Size = new System.Drawing.Size(185, 21);
             this.label26.TabIndex = 0;
             this.label26.Text = "プロジェクト情報変更";
             // 
@@ -1312,7 +1349,7 @@
             this.pnlGetProject.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlGetProject.Location = new System.Drawing.Point(0, 0);
             this.pnlGetProject.Name = "pnlGetProject";
-            this.pnlGetProject.Size = new System.Drawing.Size(667, 455);
+            this.pnlGetProject.Size = new System.Drawing.Size(643, 431);
             this.pnlGetProject.TabIndex = 25;
             this.pnlGetProject.Visible = false;
             // 
@@ -1322,12 +1359,13 @@
             this.項番,
             this.プロジェクト名,
             this.フォルダ名});
+            this.lviewProjectList.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.lviewProjectList.FullRowSelect = true;
             this.lviewProjectList.GridLines = true;
             this.lviewProjectList.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lviewProjectList.Location = new System.Drawing.Point(18, 73);
             this.lviewProjectList.Name = "lviewProjectList";
-            this.lviewProjectList.Size = new System.Drawing.Size(586, 275);
+            this.lviewProjectList.Size = new System.Drawing.Size(611, 275);
             this.lviewProjectList.TabIndex = 6;
             this.lviewProjectList.UseCompatibleStateImageBehavior = false;
             this.lviewProjectList.View = System.Windows.Forms.View.Details;
@@ -1342,18 +1380,19 @@
             // プロジェクト名
             // 
             this.プロジェクト名.Text = "プロジェクト名";
-            this.プロジェクト名.Width = 280;
+            this.プロジェクト名.Width = 315;
             // 
             // フォルダ名
             // 
             this.フォルダ名.Text = "フォルダ名";
-            this.フォルダ名.Width = 120;
+            this.フォルダ名.Width = 169;
             // 
             // btnCancel5
             // 
-            this.btnCancel5.Location = new System.Drawing.Point(506, 392);
+            this.btnCancel5.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnCancel5.Location = new System.Drawing.Point(541, 389);
             this.btnCancel5.Name = "btnCancel5";
-            this.btnCancel5.Size = new System.Drawing.Size(98, 30);
+            this.btnCancel5.Size = new System.Drawing.Size(88, 33);
             this.btnCancel5.TabIndex = 5;
             this.btnCancel5.Text = "キャンセル";
             this.btnCancel5.UseVisualStyleBackColor = true;
@@ -1362,9 +1401,10 @@
             // btnDecide
             // 
             this.btnDecide.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnDecide.Location = new System.Drawing.Point(395, 392);
+            this.btnDecide.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnDecide.Location = new System.Drawing.Point(432, 389);
             this.btnDecide.Name = "btnDecide";
-            this.btnDecide.Size = new System.Drawing.Size(98, 30);
+            this.btnDecide.Size = new System.Drawing.Size(88, 33);
             this.btnDecide.TabIndex = 4;
             this.btnDecide.Text = "決定";
             this.btnDecide.UseVisualStyleBackColor = true;
@@ -1372,9 +1412,10 @@
             // 
             // btnProjectInfo
             // 
-            this.btnProjectInfo.Location = new System.Drawing.Point(122, 392);
+            this.btnProjectInfo.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnProjectInfo.Location = new System.Drawing.Point(157, 389);
             this.btnProjectInfo.Name = "btnProjectInfo";
-            this.btnProjectInfo.Size = new System.Drawing.Size(98, 30);
+            this.btnProjectInfo.Size = new System.Drawing.Size(118, 33);
             this.btnProjectInfo.TabIndex = 3;
             this.btnProjectInfo.Text = "プロジェクト情報";
             this.btnProjectInfo.UseVisualStyleBackColor = true;
@@ -1382,9 +1423,10 @@
             // 
             // btnOutFolder
             // 
-            this.btnOutFolder.Location = new System.Drawing.Point(18, 392);
+            this.btnOutFolder.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnOutFolder.Location = new System.Drawing.Point(18, 389);
             this.btnOutFolder.Name = "btnOutFolder";
-            this.btnOutFolder.Size = new System.Drawing.Size(98, 30);
+            this.btnOutFolder.Size = new System.Drawing.Size(118, 33);
             this.btnOutFolder.TabIndex = 2;
             this.btnOutFolder.Text = "外部フォルダ";
             this.btnOutFolder.UseVisualStyleBackColor = true;
@@ -1392,18 +1434,19 @@
             // 
             // tbxProjectFolder
             // 
+            this.tbxProjectFolder.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.tbxProjectFolder.Location = new System.Drawing.Point(18, 357);
             this.tbxProjectFolder.Name = "tbxProjectFolder";
-            this.tbxProjectFolder.Size = new System.Drawing.Size(586, 19);
+            this.tbxProjectFolder.Size = new System.Drawing.Size(611, 20);
             this.tbxProjectFolder.TabIndex = 1;
             // 
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label35.Location = new System.Drawing.Point(28, 37);
+            this.label35.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label35.Location = new System.Drawing.Point(28, 28);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(181, 16);
+            this.label35.Size = new System.Drawing.Size(238, 21);
             this.label35.TabIndex = 0;
             this.label35.Text = "取り込み元プロジェクト一覧";
             // 
@@ -1421,16 +1464,17 @@
             this.pnlDeleteProject.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlDeleteProject.Location = new System.Drawing.Point(0, 0);
             this.pnlDeleteProject.Name = "pnlDeleteProject";
-            this.pnlDeleteProject.Size = new System.Drawing.Size(667, 455);
+            this.pnlDeleteProject.Size = new System.Drawing.Size(647, 435);
             this.pnlDeleteProject.TabIndex = 7;
             this.pnlDeleteProject.Visible = false;
             // 
             // btnCancel6
             // 
             this.btnCancel6.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel6.Location = new System.Drawing.Point(463, 375);
+            this.btnCancel6.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnCancel6.Location = new System.Drawing.Point(541, 389);
             this.btnCancel6.Name = "btnCancel6";
-            this.btnCancel6.Size = new System.Drawing.Size(75, 31);
+            this.btnCancel6.Size = new System.Drawing.Size(88, 33);
             this.btnCancel6.TabIndex = 8;
             this.btnCancel6.Text = "キャンセル";
             this.btnCancel6.UseVisualStyleBackColor = true;
@@ -1439,9 +1483,10 @@
             // btnDeleteProject
             // 
             this.btnDeleteProject.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnDeleteProject.Location = new System.Drawing.Point(355, 375);
+            this.btnDeleteProject.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnDeleteProject.Location = new System.Drawing.Point(432, 390);
             this.btnDeleteProject.Name = "btnDeleteProject";
-            this.btnDeleteProject.Size = new System.Drawing.Size(75, 31);
+            this.btnDeleteProject.Size = new System.Drawing.Size(88, 33);
             this.btnDeleteProject.TabIndex = 7;
             this.btnDeleteProject.Text = "削除";
             this.btnDeleteProject.UseVisualStyleBackColor = true;
@@ -1450,63 +1495,69 @@
             // cboxDeleteFolder
             // 
             this.cboxDeleteFolder.AutoSize = true;
-            this.cboxDeleteFolder.Location = new System.Drawing.Point(40, 238);
+            this.cboxDeleteFolder.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.cboxDeleteFolder.Location = new System.Drawing.Point(32, 244);
             this.cboxDeleteFolder.Name = "cboxDeleteFolder";
-            this.cboxDeleteFolder.Size = new System.Drawing.Size(178, 16);
+            this.cboxDeleteFolder.Size = new System.Drawing.Size(245, 20);
             this.cboxDeleteFolder.TabIndex = 6;
-            this.cboxDeleteFolder.Text = "フォルダの実体も一緒に削除する";
+            this.cboxDeleteFolder.Text = "フォルダの実体も一緒に削除する。";
             this.cboxDeleteFolder.UseVisualStyleBackColor = true;
             // 
             // lblProjectName
             // 
             this.lblProjectName.AutoSize = true;
-            this.lblProjectName.Location = new System.Drawing.Point(143, 189);
+            this.lblProjectName.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblProjectName.Location = new System.Drawing.Point(134, 168);
             this.lblProjectName.Name = "lblProjectName";
-            this.lblProjectName.Size = new System.Drawing.Size(0, 12);
+            this.lblProjectName.Size = new System.Drawing.Size(0, 16);
             this.lblProjectName.TabIndex = 5;
             // 
             // lblProjectNo
             // 
             this.lblProjectNo.AutoSize = true;
-            this.lblProjectNo.Location = new System.Drawing.Point(143, 152);
+            this.lblProjectNo.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblProjectNo.Location = new System.Drawing.Point(134, 131);
             this.lblProjectNo.Name = "lblProjectNo";
-            this.lblProjectNo.Size = new System.Drawing.Size(0, 12);
+            this.lblProjectNo.Size = new System.Drawing.Size(0, 16);
             this.lblProjectNo.TabIndex = 4;
             // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(37, 189);
+            this.label39.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label39.Location = new System.Drawing.Point(28, 168);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(74, 12);
+            this.label39.Size = new System.Drawing.Size(101, 16);
             this.label39.TabIndex = 3;
             this.label39.Text = "プロジェクト名：";
             // 
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(38, 152);
+            this.label38.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label38.Location = new System.Drawing.Point(29, 131);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(35, 12);
+            this.label38.Size = new System.Drawing.Size(48, 16);
             this.label38.TabIndex = 2;
             this.label38.Text = "項番：";
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(38, 69);
+            this.label37.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label37.Location = new System.Drawing.Point(28, 69);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(175, 12);
+            this.label37.Size = new System.Drawing.Size(247, 16);
             this.label37.TabIndex = 1;
-            this.label37.Text = "下記のプロジェクト情報を削除します";
+            this.label37.Text = "下記のプロジェクト情報を削除します。";
             // 
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label36.Location = new System.Drawing.Point(37, 25);
+            this.label36.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label36.Location = new System.Drawing.Point(28, 28);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(141, 16);
+            this.label36.Size = new System.Drawing.Size(185, 21);
             this.label36.TabIndex = 0;
             this.label36.Text = "プロジェクト情報削除";
             // 
@@ -1529,7 +1580,7 @@
             this.pnlMaster.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMaster.Location = new System.Drawing.Point(0, 0);
             this.pnlMaster.Name = "pnlMaster";
-            this.pnlMaster.Size = new System.Drawing.Size(667, 455);
+            this.pnlMaster.Size = new System.Drawing.Size(647, 435);
             this.pnlMaster.TabIndex = 26;
             this.pnlMaster.Visible = false;
             // 
@@ -1547,6 +1598,7 @@
             // 
             // btnDelMaster
             // 
+            this.btnDelMaster.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.btnDelMaster.Location = new System.Drawing.Point(537, 7);
             this.btnDelMaster.Name = "btnDelMaster";
             this.btnDelMaster.Size = new System.Drawing.Size(75, 23);
@@ -1557,6 +1609,7 @@
             // 
             // btnAddMaster
             // 
+            this.btnAddMaster.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.btnAddMaster.Location = new System.Drawing.Point(460, 7);
             this.btnAddMaster.Name = "btnAddMaster";
             this.btnAddMaster.Size = new System.Drawing.Size(75, 23);
@@ -1568,9 +1621,10 @@
             // lblMasterList
             // 
             this.lblMasterList.AutoSize = true;
-            this.lblMasterList.Location = new System.Drawing.Point(12, 12);
+            this.lblMasterList.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblMasterList.Location = new System.Drawing.Point(14, 9);
             this.lblMasterList.Name = "lblMasterList";
-            this.lblMasterList.Size = new System.Drawing.Size(300, 12);
+            this.lblMasterList.Size = new System.Drawing.Size(404, 16);
             this.lblMasterList.TabIndex = 1;
             this.lblMasterList.Text = "担当者を選択して、もう一度クリックすると名前を編集できます。";
             // 
@@ -1598,9 +1652,10 @@
             // btnCancel7
             // 
             this.btnCancel7.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel7.Location = new System.Drawing.Point(499, 400);
+            this.btnCancel7.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnCancel7.Location = new System.Drawing.Point(541, 389);
             this.btnCancel7.Name = "btnCancel7";
-            this.btnCancel7.Size = new System.Drawing.Size(97, 33);
+            this.btnCancel7.Size = new System.Drawing.Size(88, 33);
             this.btnCancel7.TabIndex = 12;
             this.btnCancel7.Text = "キャンセル";
             this.btnCancel7.UseVisualStyleBackColor = true;
@@ -1609,9 +1664,10 @@
             // btnSubmit2
             // 
             this.btnSubmit2.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnSubmit2.Location = new System.Drawing.Point(362, 400);
+            this.btnSubmit2.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnSubmit2.Location = new System.Drawing.Point(432, 389);
             this.btnSubmit2.Name = "btnSubmit2";
-            this.btnSubmit2.Size = new System.Drawing.Size(97, 33);
+            this.btnSubmit2.Size = new System.Drawing.Size(88, 33);
             this.btnSubmit2.TabIndex = 11;
             this.btnSubmit2.Text = "編集終了";
             this.btnSubmit2.UseVisualStyleBackColor = true;
@@ -1705,10 +1761,10 @@
             // lblOfficeMasterTitle
             // 
             this.lblOfficeMasterTitle.AutoSize = true;
-            this.lblOfficeMasterTitle.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.lblOfficeMasterTitle.Location = new System.Drawing.Point(28, 25);
+            this.lblOfficeMasterTitle.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lblOfficeMasterTitle.Location = new System.Drawing.Point(28, 28);
             this.lblOfficeMasterTitle.Name = "lblOfficeMasterTitle";
-            this.lblOfficeMasterTitle.Size = new System.Drawing.Size(91, 16);
+            this.lblOfficeMasterTitle.Size = new System.Drawing.Size(120, 21);
             this.lblOfficeMasterTitle.TabIndex = 0;
             this.lblOfficeMasterTitle.Text = "事業所マスタ";
             // 
@@ -1724,7 +1780,7 @@
             this.pnlVersion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlVersion.Location = new System.Drawing.Point(0, 0);
             this.pnlVersion.Name = "pnlVersion";
-            this.pnlVersion.Size = new System.Drawing.Size(667, 455);
+            this.pnlVersion.Size = new System.Drawing.Size(659, 447);
             this.pnlVersion.TabIndex = 14;
             this.pnlVersion.Visible = false;
             // 
@@ -1732,18 +1788,19 @@
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("MS UI Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label48.Location = new System.Drawing.Point(270, 394);
+            this.label48.Location = new System.Drawing.Point(25, 345);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(391, 39);
+            this.label48.Size = new System.Drawing.Size(389, 39);
             this.label48.TabIndex = 5;
             this.label48.Text = "Icon is Designed by Diego Naive, United States 2010.\r\nProgrammer: Kenji Takanashi" +
-    "\r\nCopyright © 2013 Hiro KAWAGUCHI Laboratory. All Rights Reserved.";
+    "\r\nCopyright c 2013 Hiro KAWAGUCHI Laboratory. All Rights Reserved.";
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(586, 108);
+            this.btnClose.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnClose.Location = new System.Drawing.Point(541, 389);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(88, 33);
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "閉じる";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -1753,19 +1810,20 @@
             // 
             this.lblVersionInfo.AutoSize = true;
             this.lblVersionInfo.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.lblVersionInfo.Location = new System.Drawing.Point(29, 154);
+            this.lblVersionInfo.Location = new System.Drawing.Point(25, 159);
             this.lblVersionInfo.Name = "lblVersionInfo";
-            this.lblVersionInfo.Size = new System.Drawing.Size(437, 32);
+            this.lblVersionInfo.Size = new System.Drawing.Size(431, 80);
             this.lblVersionInfo.TabIndex = 3;
-            this.lblVersionInfo.Text = "このアプリケーションはVisual C#で作成されています。\r\nMicrosoft .net framework 3.5 以上の環境下で正常に動作します。";
+            this.lblVersionInfo.Text = "このアプリケーションは Visual C# で作成されています。\r\n動作させるためには、Microsoft .NET Framework 3.5 が必要です。\r\n" +
+    "\r\nリリース情報など、本ソフトウェアに関連する情報は、\r\nhttp://www.docmaker.net/  をご覧ください。";
             // 
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label47.Location = new System.Drawing.Point(398, 51);
+            this.label47.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label47.Location = new System.Drawing.Point(421, 75);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(265, 42);
+            this.label47.Size = new System.Drawing.Size(208, 32);
             this.label47.TabIndex = 2;
             this.label47.Text = "Hiro KAWAGUCHI Laboratory\r\nhttp://www.kawaguchi.com/";
             // 
@@ -1773,16 +1831,16 @@
             // 
             this.lblVersion.AutoSize = true;
             this.lblVersion.Font = new System.Drawing.Font("MS UI Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.lblVersion.Location = new System.Drawing.Point(266, 96);
+            this.lblVersion.Location = new System.Drawing.Point(320, 111);
             this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(115, 19);
+            this.lblVersion.Size = new System.Drawing.Size(80, 19);
             this.lblVersion.TabIndex = 1;
-            this.lblVersion.Text = "Version 2.0.0";
+            this.lblVersion.Text = "Ver.2.0.0";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::net.docmaker.Properties.Resources.docmaker;
-            this.pictureBox2.Location = new System.Drawing.Point(20, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(28, 28);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(372, 95);
             this.pictureBox2.TabIndex = 0;
@@ -1792,7 +1850,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(667, 455);
+            this.ClientSize = new System.Drawing.Size(647, 435);
             this.ControlBox = false;
             this.Controls.Add(this.pnlVersion);
             this.Controls.Add(this.pnlTaskGet);
