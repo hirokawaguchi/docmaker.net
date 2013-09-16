@@ -285,6 +285,7 @@ namespace net.docmaker {
             }
 
             if (env_data.Project.TortoiseSVN) {
+                if (svn == null) svn = new SvnManager(env_data);
                 if (task == "")
                     svn.TortoiseSvn("Project", "checkout", env_data.Project.Folder + @"\" + env_data.Project.SelectedFolder, env_data.Project.URL + env_data.Project.SelectedFolder);
                 else

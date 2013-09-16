@@ -53,7 +53,11 @@ namespace net.docmaker.Classes {
         }
 
         internal string GetValue(string keyName,string valueName) {
-            return Registry.GetValue(keyName, valueName, "").ToString();
+            object val = Registry.GetValue(keyName, valueName, "");
+            if (val == null)
+                return "";
+            else
+                return val.ToString();
         }
 
     }
