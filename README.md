@@ -17,9 +17,9 @@ Please see the http://www.docmaker.net/ information on the use of this software.
 このソフトウェアのソースコードの利用に関する情報
 ================================================
 
-The source code for this software applies different licenses by the region of the user. Please see the LISECSE.txt.
+The source code for this software applies different licenses by the region of the user. Please see the LICENSE.txt.
 
-このソフトウェアのソースコードは、利用者の領域により異なるライセンスを適用します。LISECSE.txt をご覧ください。
+このソフトウェアのソースコードは、利用者の領域により異なるライセンスを適用します。LICENSE.txt をご覧ください。
 
 
 
