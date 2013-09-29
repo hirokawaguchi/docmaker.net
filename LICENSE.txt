@@ -1,0 +1,36 @@
+
+LICENSE
+
+a) For educational institutions and government agencies:
+
+  "docmaker.net" is released under the Apache License Version 2.0, see LICENSE_Apache2.0.txt.
+
+b) For other than the above:
+
+  "docmaker.net" is released under the GNU GENERAL PUBLIC LICENSE Version 3, see LICENSE_GPL3.0.txt.
+
+
+ライセンス
+
+a) 教育機関及び行政機関を対象としたライセンス：
+
+  "docmaker.net"は、Apache License Version 2.0 のもとで公開されています。LICENSE_Apache2.0.txtをご覧ください。
+
+b) 上記以外を対象としたライセンス：
+
+  "docmaker.net"は、GNU GENERAL PUBLIC LICENSE Version 3 のもとで公開されています。LICENSE_GPL3.0.txtをご覧ください。
+
+
+License of the library used in the software
+
+* ExcelLibrary.dll --- Used in the reading of files in Microsoft Excel format. This program is released under the Microsoft Public License.
+
+* FolderBrowser.dll --- Used in the selection of the folder.  This program is released under the Code Project Open License (CPOL) 1.02.
+
+
+このソフトウェアで使用したライブラリのライセンス
+
+* ExcelLibrary.dll --- Microsoft Excel 形式のファイルの読み込みで使用しています。このプログラムは Microsoft Public License のもとで公開されています。
+
+* FolderBrowser.dll --- フォルダ選択機能のために使用しています。このプログラムは The Code Project Open License (CPOL) 1.02 のもとで公開されています。
+
